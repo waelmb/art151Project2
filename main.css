@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+header {
+    border-bottom: #F9E109;    
+    border-style: none none dashed none;
+    text-align: center;
+    padding: 1em 0 1em 0;
+}
+
+h1 {
+    color: #F9E109;
+    font-size: 120px;
+    margin: 0;
+}
+
+.flags {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flags img {
+    height: 150px;
+    
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    color: white; 
+    background: #262323;
+    background-image: url("radioactive.svg");
+    background-repeat: repeat;
+    background-size: 5em;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    background: #262323;
+    margin:auto 5em auto 5em;
+    height: 100%;
+}
