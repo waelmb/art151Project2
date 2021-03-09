@@ -1,16 +1,11 @@
+/* General Styles */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap');
 
 header {
     border-bottom: #F9E109;    
     border-style: none none dashed none;
-    text-align: center;
     padding: 1em 0 1em 0;
-}
-
-h1 {
-    color: #F9E109;
-    font-size: 120px;
-    margin: 0;
 }
 
 .flags {
@@ -20,12 +15,39 @@ h1 {
 
 .flags img {
     height: 150px;
-    
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: #F9E109;
+    font-size: 120px;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    color: #F9E109;
+    font-size: 64px;
+    margin: 0;
+}
+
+p {
+    font-family: 'IM Fell DW Pica', serif;
+    color: white; 
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 body {
-    font-family: 'Bebas Neue', cursive;
-    color: white; 
+    text-align: center;
     background: #262323;
     background-image: url("radioactive.svg");
     background-repeat: repeat;
@@ -40,5 +62,30 @@ html, body {
 .container {
     background: #262323;
     margin:auto 5em auto 5em;
-    height: 100%;
+    padding: 0 1em 0 1em;
+    min-height: 100%;
+}
+
+.container img, .transitions img {
+    max-width: 800px;
+}
+
+footer {
+    margin: 5em auto 5em auto;
+    border-top: #F9E109;    
+    border-style: dashed none none none;
+    padding: 1em 0 1em 0;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+/* Index Styles */
+
+#index .choice {
+    font-size: 40px;
+    text-decoration: italic;
+    font-family: 'Bebas Neue', cursive;
+    color: red;
 }
