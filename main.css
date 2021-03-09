@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap');
 
 header {
-    border-bottom: #F9E109;    
-    border-style: none none dashed none;
+    /*border-bottom: #F9E109;    
+    border-style: none none dashed none;*/
     padding: 1em 0 1em 0;
 }
 
@@ -48,11 +48,16 @@ a:hover {
 
 body {
     text-align: center;
-    background: #262323;
-    background-image: url("radioactive.svg");
-    background-repeat: repeat;
-    background-size: 5em;
+    /*background: #262323;*/
     margin: 0;
+}
+
+.repeat_nuke {
+    height: 2em;
+    background-image: url("radioactive.svg");
+    background-size: 2em;
+    background-repeat: space;
+    margin: 2em 0;
 }
 
 html, body {
@@ -60,10 +65,23 @@ html, body {
 }
 
 .container {
-    background: #262323;
-    margin:auto 5em auto 5em;
+    background: linear-gradient(-45deg, #1e1c1c, #262323, #514e4e, #7c7b7b);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
     padding: 0 1em 0 1em;
     min-height: 100%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .container img, .transitions img {
@@ -71,9 +89,9 @@ html, body {
 }
 
 footer {
-    margin: 5em auto 5em auto;
-    border-top: #F9E109;    
-    border-style: dashed none none none;
+    margin: 1em auto 5em auto;
+    /*border-top: #F9E109;    
+    border-style: dashed none none none;*/
     padding: 1em 0 1em 0;
 }
 
