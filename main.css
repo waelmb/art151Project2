@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap');
 
 header {
-    /*border-bottom: #F9E109;    
-    border-style: none none dashed none;*/
+    border-bottom: #F9E109;    
+    border-style: none none dashed none;
     padding: 1em 0 1em 0;
 }
 
@@ -14,27 +14,27 @@ header {
 }
 
 .flags img {
-    height: 150px;
+    height: 100px;
 }
 
 h1 {
-    font-family: 'Bebas Neue', cursive;
-    color: #F9E109;
-    font-size: 120px;
-    margin: 0;
-}
-
-h2 {
     font-family: 'Bebas Neue', cursive;
     color: #F9E109;
     font-size: 64px;
     margin: 0;
 }
 
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    color: #F9E109;
+    font-size: 48px;
+    margin: 1em 0;
+}
+
 p {
     font-family: 'IM Fell DW Pica', serif;
     color: white; 
-    font-size: 24px;
+    font-size: 32px;
 }
 
 a {
@@ -48,7 +48,10 @@ a:hover {
 
 body {
     text-align: center;
-    /*background: #262323;*/
+    background: linear-gradient(-45deg, #1e1c1c, #3b3838, #676565, #7c7b7b);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    padding: 0 1em 0 1em;
     margin: 0;
 }
 
@@ -62,14 +65,6 @@ body {
 
 html, body {
     height: 100%;
-}
-
-.container {
-    background: linear-gradient(-45deg, #1e1c1c, #262323, #514e4e, #7c7b7b);
-    background-size: 400% 400%;
-    animation: gradient 5s ease infinite;
-    padding: 0 1em 0 1em;
-    min-height: 100%;
 }
 
 @keyframes gradient {
@@ -88,10 +83,22 @@ html, body {
     max-width: 800px;
 }
 
+.side_by_side {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.choice {
+    font-size: 48px;
+    text-decoration: italic;
+    font-family: 'Bebas Neue', cursive;
+    color: red;
+}
+
 footer {
     margin: 1em auto 5em auto;
-    /*border-top: #F9E109;    
-    border-style: dashed none none none;*/
+    border-top: #F9E109;    
+    border-style: dashed none none none;
     padding: 1em 0 1em 0;
 }
 
@@ -99,11 +106,242 @@ footer p {
     font-size: 20px;
 }
 
-/* Index Styles */
 
-#index .choice {
-    font-size: 40px;
-    text-decoration: italic;
-    font-family: 'Bebas Neue', cursive;
-    color: red;
+/* Index Styles */
+#index .content img {
+    max-height: 500px;
+}
+
+/* SVG animations */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	text-rendering: optimizeLegibility;
+	font-smooth: always;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.wrap {
+	perspective-origin: 50% 50%;
+}
+
+.svg {
+	stroke: #F9E109;
+	position: fixed;
+	bottom: -100%;
+	transform-style: preserve-3d;
+	height: 0em;
+}
+
+.svg:nth-child(1) {
+	left: -12%;
+	animation: raise1 17s linear infinite;
+	animation-delay: 0s;
+	transform: scale(0.8) rotate(334deg);
+	z-index: -1;
+	filter: blur(-5px);
+}
+
+@keyframes raise1 {
+	from {
+		height: 5em;
+	}
+
+	to {
+		bottom: 150%;
+		transform: scale(0.8) rotate(183deg);
+		height: 5em;
+	}
+}
+
+.svg:nth-child(2) {
+	left: 80%;
+	animation: raise2 8s linear infinite;
+	animation-delay: 0s;
+	transform: scale(0.7) rotate(146deg);
+	z-index: -1;
+	filter: blur(-4px);
+}
+
+@keyframes raise2 {
+	from {
+		height: 5em;
+	}
+
+	to {
+		bottom: 150%;
+		transform: scale(0.7) rotate(33deg);
+		height: 5em;
+	}
+}
+
+.svg:nth-child(3) {
+	left: 81%;
+	animation: raise3 14s linear infinite;
+	animation-delay: -2s;
+	transform: scale(0.9) rotate(77deg);
+	z-index: -1;
+	filter: blur(-3px);
+}
+
+@keyframes raise3 {
+	from {
+		height: 5em;
+	}
+
+	to {
+		bottom: 150%;
+		transform: scale(0.9) rotate(97deg);
+		height: 5em;
+	}
+}
+
+.svg:nth-child(4) {
+	left: 31%;
+	animation: raise4 13s linear infinite;
+	animation-delay: -2s;
+	transform: scale(0.7) rotate(183deg);
+	z-index: -1;
+	filter: blur(-2px);
+}
+
+@keyframes raise4 {
+	from {
+		height: 5em;
+	}
+
+	to {
+		bottom: 150%;
+		transform: scale(0.7) rotate(225deg);
+		height: 5em;
+	}
+}
+
+.svg:nth-child(5) {
+	left: 70%;
+	animation: raise5 18s linear infinite;
+	animation-delay: -3s;
+	transform: scale(0.5) rotate(349deg);
+	z-index: -1;
+	filter: blur(-1px);
+}
+
+@keyframes raise5 {
+	from {
+		height: 5em;
+	}
+
+	to {
+		bottom: 150%;
+		transform: scale(0.5) rotate(10deg);
+		height: 5em;
+	}
+}
+
+.svg:nth-child(6) {
+	left: 13%;
+	animation: raise6 10s linear infinite;
+	animation-delay: -3s;
+	transform: scale(0.5) rotate(9deg);
+	z-index: -1;
+	filter: blur(0px);
+}
+
+@keyframes raise6 {
+	from {
+		height: 5em;
+	}
+
+	to {
+		bottom: 150%;
+		transform: scale(0.5) rotate(309deg);
+		height: 5em;
+	}
+}
+
+.svg:nth-child(7) {
+	left: 51%;
+	animation: raise7 18s linear infinite;
+	animation-delay: 0s;
+	transform: scale(0.5) rotate(55deg);
+	z-index: -1;
+	filter: blur(1px);
+}
+
+@keyframes raise7 {
+	from {
+		height: 5em;
+	}
+
+	to {
+		bottom: 150%;
+		transform: scale(0.5) rotate(38deg);
+		height: 5em;
+	}
+}
+
+.svg:nth-child(8) {
+	left: 71%;
+	animation: raise8 15s linear infinite;
+	animation-delay: -1s;
+	transform: scale(0.9) rotate(203deg);
+	z-index: -1;
+	filter: blur(2px);
+}
+
+@keyframes raise8 {
+	from {
+		height: 5em;
+	}
+
+	to {
+		bottom: 150%;
+		transform: scale(0.9) rotate(266deg);
+		height: 5em;
+	}
+}
+
+.svg:nth-child(9) {
+	left: 37%;
+	animation: raise9 21s linear infinite;
+	animation-delay: -4s;
+	transform: scale(0.9) rotate(67deg);
+	z-index: -1;
+	filter: blur(3px);
+}
+
+@keyframes raise9 {
+	from {
+		height: 5em;
+	}
+
+	to {
+		bottom: 150%;
+		transform: scale(0.9) rotate(41deg);
+		height: 5em;
+	}
+}
+
+.svg:nth-child(10) {
+	left: 79%;
+	animation: raise10 16s linear infinite;
+	animation-delay: 0s;
+	transform: scale(0.8) rotate(148deg);
+	z-index: -1;
+	filter: blur(4px);
+}
+
+@keyframes raise10 {
+	from {
+		height: 5em;
+	}
+
+	to {
+		bottom: 150%;
+		transform: scale(0.8) rotate(341deg);
+		height: 5em;
+	}
 }

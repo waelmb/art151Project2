@@ -1,0 +1,50 @@
+$color: #F9E109;
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+.wrap{
+  perspective-origin: 50% 50%;
+}
+
+.svg{
+  stroke:$color;
+  position:fixed;
+  bottom: -100%;
+  transform-style: preserve-3d;
+  height: 0em;
+}
+
+$total: 10;
+@for $i from 1 through $total {
+  $scale:random(1) - (random(5)*0.1);
+  
+  .svg:nth-child(#{$i}){
+    left:random(120) * 1% - 20;
+    animation: raise#{$i} 6 + random(15) +s linear infinite;
+    animation-delay:random(5) - 5 + s;
+    transform: scale($scale) rotate(random(360) + deg);
+    z-index: -1;
+    filter: blur($i - 6 + px);
+
+    @keyframes raise#{$i} {
+      from{
+          height: 5em;
+      }
+      to{
+       bottom:150%;
+       transform: scale($scale) rotate(random(360) + deg);
+       height: 5em;
+      }
+    }
+  }
+}
