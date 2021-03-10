@@ -1,3 +1,5 @@
+Smoke effect: https://codepen.io/good1uck/pen/jjOqRa
+Background: https://www.sliderrevolution.com/resources/css-animated-background/
 Index:
     h2: Historical Background
     p: Although the United States (US) and the Union of Soviet Socialist Republics (USSR) fought alongside each other in World War II (WW2), their relationship was tense given the ideological differences. In 1945, the US's development and usage of atomic bombs helped WW2 come to an end, so American officials encouraged the continued research and development of atomic bombs, thus sparking an arms race. In 1949, the Soviet Union tested its first atomic bomb. As a response, President Truman would build even more destructive weapons, such as hydrogen bombs. Similarly, Stalin followed suit.
@@ -6,6 +8,9 @@ Index:
     <p>In this game, we are going to see how the USSR might have improved their outcomes.</p>
     <p>Your mission, shall you choose to accept it, is to win the Cold War as the leader of the Union of Soviet Socialist Republics.</p>
 
-Game:
+begin:
+    <h2>Setting</h2>
+    <p>It's after WW2. The americans already have nuclear arms, which proved as a crucial advantage.</p>
+    <h2>Urgent Message</h2>
 
 
