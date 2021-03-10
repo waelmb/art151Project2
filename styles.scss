@@ -9,7 +9,6 @@ body {
   font-smooth: always;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
 }
 
 .wrap{
@@ -34,7 +33,7 @@ $total: 10;
     animation-delay:random(5) - 5 + s;
     transform: scale($scale) rotate(random(360) + deg);
     z-index: -1;
-    filter: blur($i - 6 + px);
+    filter: blur(3 + random(3) + px);
 
     @keyframes raise#{$i} {
       from{
