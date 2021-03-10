@@ -8,9 +8,65 @@ Index:
     <p>In this game, we are going to see how the USSR might have improved their outcomes.</p>
     <p>Your mission, shall you choose to accept it, is to win the Cold War as the leader of the Union of Soviet Socialist Republics.</p>
 
-begin:
+story1:
     <h2>Setting</h2>
-    <p>It's after WW2. The americans already have nuclear arms, which proved as a crucial advantage.</p>
+    <p>It's after WW2. The americans already have nuclear arms, which proved to be crucial strategic advantage.</p>
+    <p>Thanfully, we tested our own bomb back in 1949 and 1953.</p>
+    ^^^ maybe not
+
     <h2>Urgent Message</h2>
+    <img of c68>
+    <p>Our operatives have undercovered American top secret documents indicating that they plan to spend a lot of dollars in research and development of nuclear weaponary.</p>
+    <p>As a result of this intellegience breach, highly valued operatives have been arrested. Please use this information wisely.
+    <br>
+    <p>7th Directorate - Covert Surveillance</p>
+    Moscow, KGB
+    13 March 1954
 
+    <h2>Your Executive Order</h2>
+    choice 1 - Build a Nuclear Arsenal:
+    Spend money into advancing our nuclear technologies, expanding our intellegience operations, searching for Uranium, and building a nuclear arsenal.
+    choice 2 - Build Civilian Infrastrucure:
+    We suffered great loses during WW2. Let's focus on expanding roads and bridges, advance our space efforts, and building technologies that make us more productive and efficient.
 
+outcome1 (lose):
+    <h2>Uh, Oh...</h2>
+    <img of american win>
+    <p>The Americans have built the largest nuclear arsenal in the world. They have a strategic leverage that is impossible to catch up to.</p>
+
+    choice 1 - Retry
+    choice 2 - Learn Game Theory
+
+story2:
+
+    <h2>Ambassador's Visit</h2>
+    <p>We received credible information that your nuclear activities have been increasing recently. As you know, the potential use of nuclear weapons is an existential threat to humanity as we know it. Thus, I propose a treaty to reduce our nuclear stockpiles before it is too late</p>
+
+    choice 1 - Declare Nuclear War (Red Button)
+    "Mr. Ambassador, we do not appreciate your meddling in our internal affairs. I declare you persona non grata, therefore removing your diplomatic immunity. I launching our missies at once!
+
+    choice 2 - Let's negotiate
+    "You're right Mr. Ambassador. There is no point in stockpiling nuclear weapons when using them will result in a mutually assured destruction. Let's agree on a treaty to reduce our stockpiles.
+
+outcome2 (draw):
+    <h2>Uhm...</h2>
+    <img of endless negotiations>
+    <p>Looks like we are stuck in endless negotiations, treaties, and agreements. Even in 2021, it is still unknown what the result of this is. Let's call it a draw.</p>
+
+    choice 1 - Retry
+    choice 2 - Learn Game Theory
+
+outcome2 (draw):
+    <h2>Wow! You win!</h2>
+    <img of white flag or win>
+    <p>Our early nuclear missiles were destroyed in the air and the damage was limited to international waters.</p>
+    <p>But, there seem to be a change in American foreign policy. They apologized for the ambassador's mistake and they're appointing a new ambassador.</p>
+    <p>They know that any retaliation will destroy us both. So, they're letting us develop better nuclear technologies</p>
+    
+    choice 1 - Home
+    choice 2 - Learn Game Theory
+
+Learn Game Thoery:
+Model the game
+Backtracking
+Binding Commitment
