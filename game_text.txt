@@ -16,7 +16,7 @@ story1:
 
     <h2>Urgent Message</h2>
     <img of c68>
-    <p>Our operatives have undercovered American top secret documents indicating that they plan to spend a lot of dollars in research and development of nuclear weaponary.</p>
+    <p>Our operatives have undercovered American top secret documents that outline their plans in research and development of nuclear weaponary.</p>
     <p>As a result of this intellegience breach, highly valued operatives have been arrested. Please use this information wisely.
     <br>
     <p>7th Directorate - Covert Surveillance</p>
@@ -24,7 +24,7 @@ story1:
     13 March 1954
 
     <h2>Your Executive Order</h2>
-    choice 1 - Build a Nuclear Arsenal:
+    choice 1 - Build Nuclear Arsenal:
     Spend money into advancing our nuclear technologies, expanding our intellegience operations, searching for Uranium, and building a nuclear arsenal.
     choice 2 - Build Civilian Infrastrucure:
     We suffered great loses during WW2. Let's focus on expanding roads and bridges, advance our space efforts, and building technologies that make us more productive and efficient.
@@ -60,8 +60,8 @@ outcome2 (draw):
     <h2>Wow! You win!</h2>
     <img of white flag or win>
     <p>Our early nuclear missiles were destroyed in the air and the damage was limited to international waters.</p>
-    <p>But, there seem to be a change in American foreign policy. They apologized for the ambassador's mistake and they're appointing a new ambassador.</p>
-    <p>They know that any retaliation will destroy us both. So, they're letting us develop better nuclear technologies</p>
+    <p>But, there seem to be a change in American foreign policy by appointing a new ambassador.</p>
+    <p>They know that any retaliation will destroy us both, if not the entire planet.</p>
     
     choice 1 - Home
     choice 2 - Learn Game Theory

@@ -40,6 +40,7 @@ p {
     font-family: 'IM Fell DW Pica', serif;
     color: white; 
     font-size: 32px;
+    text-align: left;
 }
 
 a {
@@ -60,13 +61,13 @@ body {
     margin: 0;
 }
 
-.repeat_nuke {
+/* .repeat_nuke {
     height: 2em;
     background-image: url("radioactive.svg");
     background-size: 2em;
     background-repeat: space;
     margin: 2em 0;
-}
+} */
 
 html, body {
     height: 100%;
@@ -83,9 +84,12 @@ html, body {
         background-position: 0% 50%;
     }
 }
-
 .container img, .transitions img {
     max-width: 800px;
+}
+
+.content, .transitions {
+    margin: 0 10%;
 }
 
 .side_by_side {
@@ -93,22 +97,46 @@ html, body {
     justify-content: space-evenly;
 }
 
+.choice_text p {
+    text-align: center;
+}
 .choice {
     font-size: 48px;
     text-decoration: italic;
     font-family: 'Bebas Neue', cursive;
-    color: red;
+    color: #F9E109;
+    background: red;
+    border-radius: 5px;
+    padding: 5px 12px;
+}
+
+.choice:hover  {
+    text-decoration: none;
+} 
+
+@keyframes blinkAnimation {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.2;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 footer {
     margin: 1em auto 5em auto;
     border-top: #F9E109;    
     border-style: dashed none none none;
-    padding: 1em 0 1em 0;
+    padding: 1em 0 1em 0;   
 }
 
 footer p {
     font-size: 20px;
+    text-align: center;
 }
 
 
