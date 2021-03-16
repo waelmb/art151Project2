@@ -141,5 +141,8 @@ footer p {
 }
 #study .tree {
     height: 800px;
+}
 
+#study iframe {
+    margin: 1em;
 }
