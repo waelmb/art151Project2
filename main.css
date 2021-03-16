@@ -114,19 +114,6 @@ html, body {
     text-decoration: none;
 } 
 
-@keyframes blinkAnimation {
-    from {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0.2;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
 footer {
     margin: 1em auto 5em auto;
     border-top: #F9E109;    
@@ -143,4 +130,16 @@ footer p {
 /* Index Styles */
 #index .content img {
     max-height: 350px;
+}
+
+/* Study Styles */
+#study .container img {
+    max-width: 1200px;
+}
+#study .graph {
+    max-height: 350px;
+}
+#study .tree {
+    height: 800px;
+
 }

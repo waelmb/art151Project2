@@ -11,7 +11,7 @@
   <link rel="shortcut icon" type="image/jpg" href="radioactive.svg"/>
 </head>
 <canvas id="myCanvas"></canvas>
-<body id="index">
+<body id="study">
   <div class="container">
     <header>
       <div class="flags">
@@ -21,20 +21,38 @@
       </div>
     </header>
     <div class="content">
-      <h2>Wow!</h2>
-      <img src="ussr_win.jpg" alt="USSR Win">
-      <p>Our early nuclear missiles were destroyed in the air and the damage was limited to international waters. But, there seem to be a change in American foreign policy by appointing a new ambassador. They know that any retaliation will destroy us both, if not the entire planet.</p>
+      <h2>Historical Background</h2>
+      <img class="graph" src="Atomic_bombing_of_Japan.jpg" alt= "Atomic bombing of Japan">
+      <p>
+        Although the United States (US) and the Union of Soviet Socialist Republics (USSR) fought alongside each other in World War II (WW2), their relationship was tense given the ideological differences. In 1945, the US's development and usage of atomic bombs helped WW2 come to an end, so American officials encouraged the continued research and development of atomic bombs, thus sparking an arms race. In 1949, the Soviet Union tested its first atomic bomb. As a response, President Truman would build even more destructive weapons, such as hydrogen bombs. Similarly, Stalin followed suit.
+      </p>
+      <img class="graph" src="US_and_USSR_nuclear_stockpiles.png" alt= "US and USSR nuclear stockpiles">
+      <p>The graph illustrates the nuclear stockpiles of the US and the USSR/Russian Federation from 1945 until 2015. The reduction in nuclear stockpiles is a direct result of negotiations and agreements between the two nations.</p>
+      <h2>Game Theory</h2>
+      <p>
+       The game can be modeled as an extensive-form game as follows:
+      </p>
+      <img class="tree" src="game_tree.png" alt= "Game Tree">
+      <p>
+        By backtracking, we can see that we will end up at Compromise and Negotiate, resulting in a utility of 2 to each player.
+      </p>
+      <p>
+        However, what if Compromise and Negotiate isn't on the table? 
+      </p>
+      <img class="tree" src="game_tree_2.png" alt= "Game Tree">
+      <p>
+        By performing backtracking, we can see the USSR can get away with a utility of 3 and the US will have to settle for a utility of 1. This concept is called "Binding-commitment", which is used a stratergy in bargaining.
+      </p>
     </div>
     <div class="side_by_side transitions">
       <div class="choice_text">
         <a class="choice" href="index.html" title="Retry">Home</a>
       </div>
-      <div class="choice_text">
-        <a class="choice" href="study.html" title="Study">Study</a>
-      </div>
     </div>
     <footer>
-      <p>Disclaimer: the events and details in this game are fictitious.</p>
+      <p>Sources in this page: <a href="https://en.wikipedia.org/wiki/Nuclear_arms_race " title="Wikipedia">Wikipedia</a></p> 
+      <p><a href="https://www.history.com/topics/cold-war/cold-war-history" title="History.com">History.com</a></p>
+      <p>Game Theory, Alive by Anna R. Karlin and Yuval Peres.</p>
       <p>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
     </footer>
   </div>

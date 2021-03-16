@@ -1,0 +1,108 @@
+
+@keyframes blinkAnimation {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes blinkAnimation10 {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes blinkAnimation9 {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.9;
+    }
+}
+
+@keyframes blinkAnimation8 {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.8;
+    }
+}
+
+@keyframes blinkAnimation7 {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+}
+
+@keyframes blinkAnimation6 {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.6;
+    }
+}
+
+@keyframes blinkAnimation5 {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes blinkAnimation4 {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.4;
+    }
+}
+
+@keyframes blinkAnimation3 {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.4;
+    }
+}
+
+@keyframes blinkAnimation2 {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.4;
+    }
+}
+
+@keyframes blinkAnimation1 {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.4;
+    }
+}
+
+@keyframes blinkAnimation0 {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.4;
+    }
+}
