@@ -16,12 +16,12 @@ for(var i = 0; i < choices.length; i++) {
   })
 }*/
 
-var seconds = 13;
+var seconds = 12;
 
 function countDown() {
     seconds -= 1;
 
-    if(seconds < 5) {
+    if(seconds < 4) {
         window.location.replace("outcome11.html");
     }
     else if(seconds < 10) {
