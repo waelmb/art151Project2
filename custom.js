@@ -20,9 +20,8 @@ var seconds = 13;
 
 function countDown() {
     seconds -= 1;
-    console.log(seconds)
 
-    if(seconds < 3) {
+    if(seconds < 5) {
         window.location.replace("outcome11.html");
     }
     else if(seconds < 10) {
