@@ -1,6 +1,7 @@
 /* General Styles */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
 header {
     border-bottom: #F9E109;    
@@ -37,7 +38,8 @@ h2 {
 }
 
 p {
-    font-family: 'IM Fell DW Pica', serif;
+    /*font-family: 'IM Fell DW Pica', serif;*/
+    font-family: 'Inconsolata', monospace;
     color: white; 
     font-size: 32px;
     text-align: left;

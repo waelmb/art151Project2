@@ -16,7 +16,7 @@ for(var i = 0; i < choices.length; i++) {
   })
 }*/
 
-var seconds = 12;
+var seconds = 24;
 
 function countDown() {
     seconds -= 1;
